@@ -1,0 +1,28 @@
+/* pages/me/me.wxss */
+.login-main{ 
+  font-family: Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif;
+}
+.login-main-background{
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.login{
+  padding: 40rpx 0 20rpx 26rpx;
+  border-radius:10rpx;
+  width: 88%;
+  background-color: rgba(238, 235, 235, 0.5); 
+  position: fixed;
+  top:20%;
+  margin-left: 4.5%;
+  color:#4F4F4F;
+  box-shadow: 0rpx 4rpx 8rpx 6rpx #888888;
+}
+.login-user,.login-pwd{
+  margin: 50rpx 0 50rpx 30rpx;
+}
+.login-btn{
+  margin:80rpx 40rpx 20rpx 20rpx;
+}

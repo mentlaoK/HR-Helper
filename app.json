@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/mingpianku/mingpianku",
+    "pages/me/me",
+    "pages/index/xinchou/xinchou",
+    "pages/index/jixiao/jixiao",
+    "pages/index/kaoqin/kaoqin",
+    "pages/index/zhaopin/zhaopin",
+    "pages/index/qiyewenhua/qiyewenhua",
+    "pages/index/gengduo/gengduo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5C5C5C",
+    "navigationBarTitleText": "HR-Helper",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#5C5C5C"
+  },
+  "tabBar": {
+    "backgroundColor": "#EEEEE0",
+    "color": "#8A8A8A",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouye-select.png"
+      },
+      {
+        "pagePath": "pages/mingpianku/mingpianku",
+        "text": "名片库",
+        "iconPath": "images/mingpianku.png",
+        "selectedIconPath": "images/mingpianku-select.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap19.json"
+}

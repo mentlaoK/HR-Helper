@@ -1,0 +1,85 @@
+<!--index.wxml-->
+<view class="container">
+  <!--轮播-->
+  <view class="lunbo-qu">
+    <!--轮播图-->
+    <swiper indicator-dots="true" autoplay="true" interval="4000" duration="200" indicator-color="#fff" indicator-active-color="#EE3B3B" circular="true" class="lunbo">
+      <block wx:for="{{lunboImgs}}" wx:key>
+        <swiper-item>
+          <image src="{{item}}" class="lunbo-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!--六宫格-->
+  <view class="liugongge">
+    <view class="lgg-img-title" wx:for="{{routers}}" wx:key="{{item.code}}">
+      <navigator url="{{item.code}}/{{item.code}}">
+        <view>
+          <image src=" {{item.icon}}" mode="scaleToFill" class="lgg-img" />
+        </view>
+        <text class="lgg-title">{{item.name}}</text>
+      </navigator>
+    </view>
+  </view>
+
+  <!--选项卡-->
+  <view class="xuanxiangka">
+    <view class='topTabSwiper'>
+      <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}' data-current="0" bindtap='checkCurrent'>劳动法</view>
+      <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}' data-current="1" bindtap='checkCurrent'>数据报表</view>
+      <view class='tab  {{currentData == 2 ? "tabBorer" : ""}}' data-current="2" bindtap='checkCurrent'>贴吧</view>
+    </view>
+    <swiper current="{{currentData}}" class='swiper' duration="300" bindchange="bindchange" style="height:{{aheight}}rpx">
+      <!--发生变化后触发bindchange事件-->
+      <!--劳动法选项卡-->
+      <swiper-item>
+        <view class="swiper_con">
+          <view class="xxk_tuijian" wx:for="{{laodongfa}}" wx:key="{{item.id}}">
+            <view class="xxk_icon">
+              <image src="../../images/fenlei.png"></image>
+            </view>
+            <view class="xxk_img">
+              <image src="{{item.imgs}}"></image>
+            </view>
+            <view class="xxk_contnet">
+              <view class="xxk_geming">{{item.title}}</view>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+      <!--数据报表选项卡-->
+      <swiper-item>
+        <view class="swiper_con">
+          <view class="xxk_tuijian" wx:for="{{shujubaobiao}}" wx:key="{{item.id}}">
+            <view class="xxk_icon">
+              <image src="../../images/fenlei.png"></image>
+            </view>
+            <view class="xxk_img">
+              <image src="{{item.imgs}}"></image>
+            </view>
+            <view class="xxk_contnet">
+              <view class="xxk_geming">{{item.title}}</view>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+      <!--贴吧选项卡-->
+      <swiper-item>
+        <view class="swiper_con">
+          <view class="xxk_tuijian" wx:for="{{tuijian}}" wx:key="{{item.id}}">
+            <view class="xxk_icon">
+              <image src="../../images/fenlei.png"></image>
+            </view>
+            <view class="xxk_img">
+              <image src="{{item.imgs}}"></image>
+            </view>
+            <view class="xxk_contnet">
+              <view class="xxk_geming">{{item.title}}</view>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>

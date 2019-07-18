@@ -1,0 +1,131 @@
+.container{
+  background-color: #EDEDED;
+}
+
+/*轮播样式*/
+.lunbo-qu{
+  width:100%;
+  height: 433rpx;
+  margin-bottom: 30rpx;
+  
+}
+.lunbo{
+  width:100%;
+  height: 400rpx;
+  text-align: center;
+  box-shadow: 0rpx 4rpx 20rpx 6rpx #888888;
+}
+.lunbo-image{
+  width:100%;
+  height:100%;
+}
+/*六宫格样式*/
+.liugongge{
+  display: -webkit-flex;/*flex兼容性*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #fff;
+  padding: 40rpx 0;
+  box-shadow: 0rpx 4rpx 20rpx 6rpx #888888;
+
+}
+.lgg-img-title{
+  width: 33.3%;
+  text-align: center;
+  padding: 20rpx 0;
+  font-size: 30rpx;
+  color:#555;
+}
+.lgg-img{
+  width: 120rpx;
+  height: 120rpx;
+}
+/*选项卡*/
+.xuanxiangka{
+  color: #555;
+  margin-top: 60rpx;
+  background-color: #fff;
+  padding: 20rpx 10rpx;
+  box-shadow: 0rpx 4rpx 20rpx 6rpx #888888;
+}
+.topTabSwiper {
+  border-bottom: 1px solid #CDC9A5;
+  margin-top:50rpx;
+  font-size:36rpx;
+}
+.topTabSwiper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.tab {
+  float: left;
+  width: 26%;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.tabBorer {
+  border-bottom: 4rpx solid #f00;
+  color: #f00;
+}
+.swiper {
+  width: 100%;
+}
+.swiper_con {
+  padding: 10rpx;
+  width: 100%; 
+  height: 100%;
+  margin-top:40rpx;
+}
+.xxk_tuijian{
+  width: 100%;
+  display: inline-block;
+  border-bottom: 1rpx solid #ccc;
+}
+.xxk_icon,.xxk_img{
+  float:left;
+  line-height: 158rpx;
+  margin-right: 10rpx;
+}
+.xxk_icon image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.xxk_img image{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius:10rpx;
+}
+.xxk_contnet{
+  line-height: 54rpx;
+  margin:40rpx 0 0 40rpx;
+  float:left;
+}
+.xxk_geming{
+  font-size:34rpx;
+}
+.xxk_geshou{
+  font-size:26rpx;
+  color: #C4C4C4;
+}
+.xxk_pingjia_text{
+  margin-left:10rpx;
+  font-size:28rpx;
+  color:#C4C4C4;
+}
+.xxk_cont_right{
+  position: relative;
+}
+.xxk_cont_right_icon, .xxk_cont_right_time{
+  position: absolute;
+  top:0;
+  right: 20rpx; 
+}
+.xxk_cont_right_time{
+  font-size:28rpx;
+  color: #ADADAD;
+  margin-top: 100rpx;
+}

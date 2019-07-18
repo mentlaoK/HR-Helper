@@ -1,0 +1,23 @@
+<view class="card-main">
+  <image src="../../images/mingpianku-bg.jpg" class="card-background"></image>
+  <view class="card-margin" wx:for="{{mingpianku}}" wx:key="{{item.mpk_id}}">
+    <view class="card-top">
+      <view class="card-top-left">
+        <image src="{{item.tx_imgs}}" class="card-image"></image>
+      </view>
+      <view class="card-top-right">
+        <view class="card-top-right_top">
+           <text class="card-name">{{item.username}}</text>
+           <text class="card-number">{{item.number}}</text>
+        </view>
+        <view class="card-top-right_button">
+           <text class="card-name">{{item.brand}}</text>
+           <text class="card-number">{{item.position}}</text>
+        </view>
+      </view>  
+    </view>
+    <view class="card-contnet">
+       {{item.introduce}}
+    </view>
+  </view>
+</view>

@@ -1,0 +1,29 @@
+<!--pages/me/me.wxml-->
+<view class="me-main">
+  <image src="../../images/hr04.jpg" class="me-main-background"></image>
+  <view class="me1">
+      <view class="me1-top-left">
+        <image src="../../images/touxiang1.png" class="me1-image"></image>
+      </view>
+      <view class="me1-top-right">
+        <view class="me1-top-right_top">
+           <text class="me1-name">赵云</text>
+           <text class="me1-number">2000000321</text>
+        </view>
+        <view class="me1-top-right_button">
+           <text class="me1-name">A事业部</text>
+           <text class="me1-number">HR总监</text>
+        </view>
+      </view>  
+  </view>
+  <view class="me2">
+    <view><image src="../../images/me-xinxi.png"></image><text>公司：xxxx集团股份有限公司</text></view>
+    <view><image src="../../images/me-xinxi.png"></image><text>微信：weixinhao</text></view>
+    <view><image src="../../images/me-xinxi.png"></image><text>电话：020-xxxxxxxx</text></view>
+    <view><image src="../../images/me-xinxi.png"></image><text>手机号：128xxxx4382</text></view>
+    <view><image src="../../images/me-xinxi.png"></image><text>邮箱：youxiang@163.com</text></view>
+  </view>
+  <view class="me3">
+     <button type="warn">退出登录</button>
+  </view>
+</view>

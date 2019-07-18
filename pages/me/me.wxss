@@ -1,0 +1,57 @@
+/* pages/me/me.wxss */
+.me-main{ 
+  padding: 0.01rpx;
+  color: #fff;
+  font-family: Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif;
+}
+.me-main-background{
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.me1{
+  display: flex;
+  align-items: center;
+  padding: 40rpx 0 20rpx 26rpx;
+  margin: 20rpx;
+  border-radius:10rpx;
+  height: 300rpx;
+  background-color: rgba(29, 28, 28, 0.4); 
+}
+.me1-image{
+  width:200rpx;
+  height: 200rpx;
+  border-radius: 50%; 
+}
+.me1-top-right text{
+  margin: 24rpx;
+}
+.me1-top-right_top{
+  margin-bottom: 20rpx;
+}
+.me2 view{
+  margin: 40rpx 20rpx;
+  padding: 16rpx;
+  line-height: 80rpx;
+  box-shadow: 0rpx 4rpx 6rpx 2rpx #888888;
+  background-color: rgba(252, 250, 250, 0.452); 
+  font-size: 34rpx;
+  color: #4F4F4F;
+  border-radius:10rpx;
+  position: relative;
+}
+.me2 view image{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top:30rpx;
+  left:20rpx;
+}
+.me2 view text{
+  margin-left:70rpx;
+}
+.me3 button{
+  margin: 20rpx;
+}

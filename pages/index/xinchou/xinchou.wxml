@@ -1,2 +1,13 @@
-<!--pages/index/leku/leku.wxml-->
-<text>薪酬</text>
+<view class="xinchou-main">
+  <view class="xinchou1">
+    <image src="../../../images/hr02.jpg"></image>
+  </view>
+  <view class="xinchou2">
+    <view><image src="../../../images/jisuan.png"></image><text>薪资计算器</text></view>
+    <view><image src="../../../images/jisuan.png"></image><text>个税计算器</text></view>
+    <view><image src="../../../images/jisuan.png"></image><text>五险计算器</text></view>
+    <view><image src="../../../images/jisuan.png"></image><text>公积金计算器</text></view>
+    <view><image src="../../../images/jisuan.png"></image><text>平均工资</text></view>
+    <view><image src="../../../images/jisuan.png"></image><text>最低工资标准</text></view>
+  </view>
+</view>

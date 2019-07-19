@@ -9,6 +9,12 @@
   background-size:100% 100%;
   z-index: -1;
 }
+.login-title{
+  font-size: 50rpx;
+  color: #F0F0F0;
+  text-align: center;
+  padding-top: 80rpx; 
+}
 .login{
   padding: 40rpx 0 20rpx 26rpx;
   border-radius:10rpx;

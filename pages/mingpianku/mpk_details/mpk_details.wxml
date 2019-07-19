@@ -1,0 +1,24 @@
+<!--pages/mingpianku/mpk_details/mpk_details.wxml-->
+<view class="mpk_details">
+   <view class="mpk_details_top">
+     <image src="../../../images/hr03.jpg" class="mpk_details_top_bj"></image>
+     <view class="mpk_details_top_user">
+       <image src="../../../images/touxiang3.png" class="mpk_details_top_tx"></image>
+       <view class="mpk_details_top_name">曹操</view>
+       <view class="mpk_details_top_love">工作狂、跑步、旅游</view>
+     </view>
+     <view class="mpk_details_top_xinxi">
+       <view class="mpk_details_top_wx">微信：weixinlove</view>
+       <view class="mpk_details_top_tel">电话：188****3184</view>
+       <view class="mpk_details_top_gs">公司：*****集团股份有限公司</view>
+       <view class="mpk_details_top_add">地址：广东省广州市天河区林和中路8号海航大厦</view>
+     </view>  
+   </view>
+   <view class="mpk_details_botton">
+     <view class="mpk_details_botton_jj">简介：</view>
+     <image src="../../../images/hr03.jpg"></image>
+     <image src="../../../images/hr03.jpg"></image>
+     <image src="../../../images/hr03.jpg"></image>
+     <view class="mpk_details_botton_cont">朋友就像人民币有真也有假，我是一个工作狂，我热爱我的工作，工作使我感到快乐！朋友就像人民币有真也有假，我是一个工作狂，我热爱我的工作，工作使我感到快乐！朋友就像人民币有真也有假，我是一个工作狂，我热爱我的工作，工作使我感到快乐！</view>
+   </view>
+</view>

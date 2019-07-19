@@ -24,6 +24,6 @@
     <view><image src="../../images/me-xinxi.png"></image><text>邮箱：youxiang@163.com</text></view>
   </view>
   <view class="me3">
-     <button type="warn">退出登录</button>
+     <button type="warn" bindtap="logOut">退出登录</button>
   </view>
 </view>

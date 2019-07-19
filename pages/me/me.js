@@ -5,5 +5,10 @@ Page({
    */
   data: {
 
+  },
+  logOut:function(){
+    wx.redirectTo({
+      url: "../../pages/login/login"
+    })
   }
 })

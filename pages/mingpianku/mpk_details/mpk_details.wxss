@@ -1,0 +1,65 @@
+/* pages/mingpianku/mpk_details/mpk_details.wxss */
+.mpk_details{
+  background-color: #EDEDED;
+  padding: 1rpx;
+}
+.mpk_details_top{
+  margin: 20rpx;
+  box-shadow: 0rpx 4rpx 10rpx 4rpx #888888;
+  background-color: #fff;
+}
+.mpk_details_top_bj{
+  width: 100%;
+  height: 300rpx;
+  z-index: -1;
+}
+.mpk_details_top_user{
+  text-align: center;
+  margin-top: -120rpx;
+}
+.mpk_details_top_tx{
+  width: 160rpx;
+  height: 160rpx;
+}
+.mpk_details_top_user view{
+  margin: 14rpx;
+  font-family: Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti;
+}
+.mpk_details_top_name{
+  font-size: 36rpx;
+  color: #8B0A50;
+}
+.mpk_details_top_love{
+  font-size: 30rpx;
+  color: #949494;
+}
+.mpk_details_top_xinxi view{
+  line-height: 80rpx;
+  border-bottom:1rpx solid #ccc;
+  margin: 20rpx 0;
+  padding: 10rpx 20rpx;
+  font-size: 30rpx;
+  color: #949494;
+}
+.mpk_details_botton{
+  margin: 20rpx;
+  box-shadow: 0rpx 4rpx 10rpx 4rpx #888888;
+  background-color: #fff;
+}
+.mpk_details_botton_jj{
+  font-size: 36rpx;
+  color: #666;
+  padding: 20rpx;
+}
+.mpk_details_botton image{
+  width: 30%;
+  height: 160rpx;
+  margin: 10rpx;
+}
+.mpk_details_botton_cont{
+  font-size: 30rpx;
+  color: #949494;
+  line-height: 60rpx;
+  padding: 10rpx 10rpx 20rpx 20rpx;
+  margin-bottom: 20rpx;
+}

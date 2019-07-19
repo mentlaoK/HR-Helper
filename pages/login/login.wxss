@@ -11,7 +11,7 @@
 }
 .login-title{
   font-size: 50rpx;
-  color: #F0F0F0;
+  color: rgb(136, 133, 133);
   text-align: center;
   padding-top: 80rpx; 
 }
@@ -30,5 +30,7 @@
   margin: 50rpx 0 50rpx 30rpx;
 }
 .login-btn{
-  margin:80rpx 40rpx 20rpx 20rpx;
+  margin:100rpx 40rpx 20rpx 20rpx;
+  background-color: rgba(14, 109, 5, 0.6);
+  color: #fff;
 }

@@ -1,7 +1,7 @@
 <!--pages/login/login.wxml-->
 <!--pages/me/me.wxml-->
 <view class="login-main">
-  <image src="../../images/hr02.jpg" class="login-main-background"></image>
+  <image src="../../images/hr04.jpg" class="login-main-background"></image>
   <view class="login-title">HR-小助手</view>
   <view class="login">
       <view class="login-user">
@@ -10,7 +10,7 @@
       <view class="login-pwd">
         <input password  placeholder="请输入密码" name="userpwd" bindinput ="userPwdInput" />
       </view>
-      <button type="primary" class="login-btn" bindtap="login">登录</button>
+      <button  class="login-btn" bindtap="login">登录</button>
   </view>
 </view>
 

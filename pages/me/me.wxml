@@ -1,6 +1,6 @@
 <!--pages/me/me.wxml-->
 <view class="me-main">
-  <image src="../../images/hr04.jpg" class="me-main-background"></image>
+  <image src="../../images/hr02.jpg" class="me-main-background"></image>
   <view class="me1">
       <view class="me1-top-left">
         <image src="../../images/touxiang1.png" class="me1-image"></image>

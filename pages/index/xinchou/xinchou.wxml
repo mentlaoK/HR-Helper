@@ -1,8 +1,8 @@
-<view class="xinchou-main">
-  <view class="xinchou1">
+<view class="liugongge_xq-main">
+  <view class="liugongge_xq-top">
     <image src="../../../images/hr02.jpg"></image>
   </view>
-  <view class="xinchou2">
+  <view class="liugongge_xq-button">
     <view><image src="../../../images/jisuan.png"></image><text>薪资计算器</text></view>
     <view><image src="../../../images/jisuan.png"></image><text>个税计算器</text></view>
     <view><image src="../../../images/jisuan.png"></image><text>五险计算器</text></view>

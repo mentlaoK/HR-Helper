@@ -1,2 +1,13 @@
-<!--pages/index/xinge/xinge.wxml-->
-<text>招聘</text>
+<view class="liugongge_xq-main">
+  <view class="liugongge_xq-top">
+    <image src="../../../images/hr04.jpg"></image>
+  </view>
+  <view class="liugongge_xq-button">
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>招聘工作流程</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>招聘评估报告</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>招聘岗位</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>内部推荐</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>面试评价表</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>不录用通知</text></view>
+  </view>
+</view>

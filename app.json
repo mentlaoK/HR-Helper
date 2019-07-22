@@ -1,8 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/login/login",
-    
+    "pages/index/index",
     "pages/mingpianku/mingpianku",
     "pages/mingpianku/mpk_details/mpk_details",
     "pages/me/me",
@@ -12,7 +11,6 @@
     "pages/index/zhaopin/zhaopin",
     "pages/index/qiyewenhua/qiyewenhua",
     "pages/index/gengduo/gengduo"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",

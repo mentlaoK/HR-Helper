@@ -1,7 +1,7 @@
 <!--pages/login/login.wxml-->
 <!--pages/me/me.wxml-->
 <view class="login-main">
-  <image src="../../images/hr04.jpg" class="login-main-background"></image>
+  <image src="../../images/hr08.png" class="login-main-background"></image>
   <view class="login-title">HR-小助手</view>
   <view class="login">
       <view class="login-user">

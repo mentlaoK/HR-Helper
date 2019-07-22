@@ -19,7 +19,7 @@
   padding: 40rpx 0 20rpx 26rpx;
   border-radius:10rpx;
   width: 88%;
-  background-color: rgba(238, 235, 235, 0.5); 
+  background-color: rgba(238, 235, 235, 0.2); 
   position: fixed;
   top:20%;
   margin-left: 4.5%;

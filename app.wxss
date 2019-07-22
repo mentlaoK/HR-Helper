@@ -1,2 +1,40 @@
-/**app.wxss**/
-
+/**index六宫格详情样式**/
+.liugongge_xq-main{ 
+  padding: 0.01rpx;
+  color: #fff;
+  font-family: Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif;
+  background-color: rgba(45, 47, 48, 0.1);
+}
+.liugongge_xq-top{
+  display: flex;
+  align-items: center;
+  margin: 20rpx;
+  border-radius:10rpx;
+  height: 300rpx;
+}
+.liugongge_xq-top image{
+  height: 300rpx;
+  width: 100%;
+  box-shadow: 0rpx 4rpx 6rpx 2rpx #888888;
+}
+.liugongge_xq-button view{
+  margin: 30rpx 20rpx;
+  padding: 16rpx;
+  line-height: 80rpx;
+  box-shadow: 0rpx 4rpx 6rpx 2rpx #888888;
+  background-color: #fff; 
+  font-size: 34rpx;
+  color: rgb(36, 35, 35);
+  border-radius:10rpx;
+  position: relative;
+}
+.liugongge_xq-button view image{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top:30rpx;
+  left:20rpx;
+}
+.liugongge_xq-button view text{
+  margin-left:70rpx;
+}

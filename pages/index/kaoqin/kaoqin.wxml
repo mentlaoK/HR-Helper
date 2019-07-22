@@ -1,2 +1,13 @@
-<!--pages/index/qinggan/qinggan.wxml-->
-<text>考勤</text>
+<view class="liugongge_xq-main">
+  <view class="liugongge_xq-top">
+    <image src="../../../images/hr06.jpg"></image>
+  </view>
+  <view class="liugongge_xq-button">
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>考勤管理制度</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>员工手册</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>员工加班细则</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>人事考勤管理</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>员工休假细则</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>考勤关系管理</text></view>
+  </view>
+</view>

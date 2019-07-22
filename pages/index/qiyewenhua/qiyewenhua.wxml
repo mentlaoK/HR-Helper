@@ -1,2 +1,13 @@
-<!--pages/index/tuijian/tuijian.wxml-->
-<text>企业文化</text>
+<view class="liugongge_xq-main">
+  <view class="liugongge_xq-top">
+    <image src="../../../images/hr01.jpg"></image>
+  </view>
+  <view class="liugongge_xq-button">
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>员工培训</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>性格测试</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>企业发展</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>五层结构法</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>文化免疫机制</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>文化力测评</text></view>
+  </view>
+</view>

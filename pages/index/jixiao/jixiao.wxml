@@ -1,2 +1,13 @@
-<!--pages/index/gedan/gedan.wxml-->
-<text>绩效</text>
+<view class="liugongge_xq-main">
+  <view class="liugongge_xq-top">
+    <image src="../../../images/jixiao.jpeg"></image>
+  </view>
+  <view class="liugongge_xq-button">
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>360度绩效考核</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>KPI绩效考核</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>排序法绩效考核</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>要素评价绩效考核</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>目标管理绩效考核</text></view>
+    <view><image src="../../../images/jixiao_icon1.png"></image><text>关键事件绩效考核</text></view>
+  </view>
+</view>
